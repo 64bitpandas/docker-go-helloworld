@@ -1,0 +1,6 @@
+version: '3'
+services:
+    hello-world:
+        ports:
+            - 9090:9090
+        image: hello-world:latest
